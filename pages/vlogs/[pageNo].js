@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import styles from '../../styles/Home.module.css';
 import Link from 'next/link'
 
-const pageNo = () => {
+const PageNo = () => {
     const router = useRouter();
     const pageNo = router.query.pageNo;
 
@@ -22,4 +22,4 @@ const pageNo = () => {
     )
 }
 
-export default pageNo;
+export default PageNo;

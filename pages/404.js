@@ -13,9 +13,9 @@ function PageNotFound() {
                                     <h1 className="text-center">404</h1>
                                 </div>
 
-                                <div class={styles.contant_box_404}>
+                                <div className={styles.contant_box_404}>
                                     <h3 className={styles.h2}>
-                                        Look like you're lost
+                                        Look like you are lost
                                     </h3>
 
                                     <p>The page you are looking for not availble!</p>
